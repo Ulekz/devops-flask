@@ -1,0 +1,38 @@
+# === Entorno virtual ===
+venv/
+env/
+ENV/
+.venv/
+.VENV/
+
+# === Archivos de Python compilados ===
+__pycache__/
+*.py[cod]
+*$py.class
+
+# === Archivos de log y errores ===
+*.log
+
+# === Archivos de configuración local ===
+.env
+*.env
+
+# === VS Code settings ===
+.vscode/
+
+# === Archivos del sistema operativo ===
+.DS_Store           # macOS
+Thumbs.db           # Windows
+ehthumbs.db         # Windows
+desktop.ini         # Windows
+
+# === Archivos temporales de desarrollo ===
+*.swp
+*.swo
+*.bak
+*.tmp
+*.orig
+
+# === Docker ===
+*.tar
+docker-compose.override.yml
